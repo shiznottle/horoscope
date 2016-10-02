@@ -1,0 +1,83 @@
+#container {
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+
+
+}
+
+#background {
+	height: 800px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('../img/signs.png');
+
+
+}
+
+#horoscope {
+	padding-top: 100px;
+}
+
+input {
+	width: 500px;
+	padding: 10px 40px;
+	border-radius: 4px;
+	border-style: none;
+	display: block;
+	margin: 30px auto;
+	font-size: 30px;
+	outline: none;
+}
+
+#title {
+	margin: 0;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 50px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+button {
+	width: 200px;
+	padding: 15px;
+	border: none;
+	border-bottom: solid 2px #D80054;
+	border-radius: 2px;
+	background-color: #FF3D88;
+	color: white;
+	margin-bottom: 30px;
+}
+
+button:hover {
+	background-color: #FF5C9B;
+	transition: all 0.3s ease-in-out;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+	border-bottom: none;
+}
+
+#yourSign {
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+#yourHoroscope{
+	font-style: 40px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
